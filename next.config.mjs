@@ -6,6 +6,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  turbopack: {
+    resolveAlias: {
+      // Ensure we're in the right directory
+    }
+  },
 }
 
 export default nextConfig
