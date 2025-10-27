@@ -1,5 +1,4 @@
 @import 'tailwindcss';
-@variant dark (&:is(.dark *));
 
 :root {
   /* Updated theme to match GB Khan Home Food branding with warm orange and earthy tones */
@@ -30,8 +29,9 @@
   --radius: 0.75rem;
 }
 
-.dark {
-  --background: oklch(0.18 0.02 60);
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: oklch(0.18 0.02 60);
   --foreground: oklch(0.95 0.01 85);
   --card: oklch(0.22 0.02 60);
   --card-foreground: oklch(0.95 0.01 85);
@@ -50,6 +50,7 @@
   --border: oklch(0.28 0.02 60);
   --input: oklch(0.28 0.02 60);
   --ring: oklch(0.68 0.18 55);
+  }
 }
 
 @theme inline {
