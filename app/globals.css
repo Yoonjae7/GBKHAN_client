@@ -1,7 +1,5 @@
-@import "tailwindcss";
-@import "tw-animate-css";
-
-@custom-variant dark (&:is(.dark *));
+@import 'tailwindcss';
+@variant dark (&:is(.dark *));
 
 :root {
   /* Updated theme to match GB Khan Home Food branding with warm orange and earthy tones */
