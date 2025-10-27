@@ -1,6 +1,0 @@
-{
-  "buildCommand": "cd gb-khan-menu && pnpm build",
-  "installCommand": "cd gb-khan-menu && pnpm install",
-  "framework": "nextjs",
-  "rootDirectory": "gb-khan-menu"
-}
