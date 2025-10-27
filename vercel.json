@@ -1,5 +1,5 @@
 {
-  "installCommand": "cd gb-khan-menu && corepack enable && pnpm install --frozen-lockfile=false",
-  "buildCommand": "cd gb-khan-menu && pnpm build",
+  "buildCommand": "cd gb-khan-menu && npm install && npm run build",
+  "installCommand": "cd gb-khan-menu && npm install --legacy-peer-deps",
   "framework": "nextjs"
 }
