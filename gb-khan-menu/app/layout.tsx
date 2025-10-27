@@ -10,7 +10,6 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "GB Khan Home Food - Authentic Pakistani Cuisine",
   description: "Delicious home-cooked Pakistani food with delivery. Biryanis, BBQ, rolls, and more.",
-  generator: "v0.app",
 }
 
 export default function RootLayout({
