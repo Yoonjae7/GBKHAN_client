@@ -1,5 +1,5 @@
 {
   "framework": "nextjs",
-  "installCommand": "npm install --legacy-peer-deps",
-  "buildCommand": "npm run build"
+  "installCommand": "cd gb-khan-menu && npm install --legacy-peer-deps",
+  "buildCommand": "cd gb-khan-menu && npm run build"
 }
